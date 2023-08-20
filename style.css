@@ -80,6 +80,44 @@
     width: 300px;
     font-family: Arial, Helvetica, sans-serif;
   }
+  .Img_1 {
+    width: 100px;
+    height: 100px;
+    margin-bottom: -40px;
+  }
+  .img_2 {
+    width: 100px;
+    height: 100px;
+    margin-bottom: -40px;
+  }
+  .img_3 {
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+    margin-bottom: -32px;
+  }
+  .Buscar
+  {
+    width: 369px;
+    height: 53px;
+    border-radius: 10px;
+    border: solid 2px rgb(0, 179, 255) (128, 182, 252);
+    margin-left: 43px;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    
+  }
+  .btn {
+    
+    width: 86px;
+    height: 60px;
+    background-color: aqua;
+    border-radius: 38px;
+    border: solid 2px aqua(8, 63, 243, 0.933);
+    margin-bottom: 50px;
+    margin-top: 80px;
+    
+  }
 
   .primerdiv {
   display:flex;
