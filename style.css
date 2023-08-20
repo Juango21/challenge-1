@@ -3,7 +3,7 @@
 /* Comienza parte santiago */
 .encabezado{
     font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 1px;
+    padding: 10px 0 15px 10px;
     color: darkslategrey;
     box-shadow: 0px 1px 0px 0px lightslategray;
 }
@@ -17,6 +17,7 @@
 
 .lisa{
     height: 300px;
+    border-radius: 0;
 }
 
 .section-info{
@@ -30,6 +31,7 @@
 
 .titulo-1{
     font-size: x-large;
+    padding: 15px 0 15px 0;
 }
 
 span{
@@ -68,7 +70,7 @@ span{
     font-size: small;
     margin: 0;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 .fecha{
@@ -78,9 +80,10 @@ span{
 }
 
 .imagen-user{
-    display:  flex;
-    flex-direction: row;
-    gap: 20px
+  padding: 15px;
+  display:  flex;
+  flex-direction: row;
+  gap: 20px
 }
 
 .creador{
@@ -106,7 +109,21 @@ span{
     margin: 0;
     padding: 0;
   }
-  
+
+  .section-2{
+    background-color: rgb(87, 187, 187);
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .parte-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(28, 47, 47);
+    padding-left: 20px;
+  }
+
   .cards-container {
     display: flex;
     gap: 20px;
@@ -114,6 +131,7 @@ span{
     justify-content:center;
     margin-top: 20px;
     margin-left: 50px;
+    color: darkslategrey;
   }
   
 
@@ -174,7 +192,6 @@ span{
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  
   .Marketing2{
     background-color: rgb(255, 255, 255);
     padding-top: 0px;
@@ -184,6 +201,11 @@ span{
     width: 300px;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  .ultima-parte{
+    text-align: center;
+  }
+
   .Img_1 {
     width: 100px;
     height: 100px;
@@ -215,12 +237,12 @@ span{
     
     width: 86px;
     height: 60px;
-    background-color: aqua;
-    border-radius: 38px;
-    border: solid 2px aqua(8, 63, 243, 0.933);
+    background-color: rgb(46, 135, 165);
+    color: aliceblue;
+    border-radius: 25px;
     margin-bottom: 50px;
     margin-top: 80px;
-    
+    border: solid 0;
   }
 
   .primerdiv {
