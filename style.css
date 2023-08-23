@@ -1,6 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
-
-/* Comienza parte santiago */
 .encabezado{
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px 0 15px 10px;
@@ -8,7 +10,7 @@
     box-shadow: 0px 1px 0px 0px lightslategray;
 }
 
-.section-1{
+.seccion-1{
     display:  flex;
     flex-direction: row;
     gap: 20px;
@@ -20,7 +22,7 @@
     border-radius: 0;
 }
 
-.section-info{
+.seccion-info{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,7 +40,7 @@ span{
     font-weight: bold;
 }
 
-.button-link{
+.boton-link{
     padding: 10px;
     width: 60px;
     box-shadow: 4px 4px 4px lightgray;
@@ -79,7 +81,7 @@ span{
     font-size: small;
 }
 
-.imagen-user{
+.imagen-usuario{
   padding: 15px;
   display:  flex;
   flex-direction: row;
@@ -93,7 +95,7 @@ span{
     align-items: flex-start;
 }
 
-.user{
+.usuario{
     width: 40px;
     height: 40px;
     border-radius: 180px;
@@ -103,14 +105,7 @@ span{
     font-size: small;
 }
 
-/* Termina parte Santiago */
-
-* {
-    margin: 0;
-    padding: 0;
-  }
-
-  .section-2{
+  .seccion-2{
     background-color: rgb(87, 187, 187);
     padding-bottom: 20px;
     padding-top: 20px;
@@ -124,7 +119,7 @@ span{
     padding-left: 20px;
   }
 
-  .cards-container {
+  .contenedor-cartas {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -134,30 +129,24 @@ span{
     color: darkslategrey;
   }
   
-
-  .second-div{
+  .segundo-div{
     background-color: rgb(255, 255, 255);
-    padding: 0px 5px 10px 10px;
+    padding: 0px 20px 5px 20px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 0 0 20px 20px;
     
     color-scheme: rgb(43, 43, 43);
   }
-  
-  .tercerdiv{
-    color: rgb(51, 51, 51);
-    font-weight: lighter;
-    font-size: medium;
-    padding: 0px 10px 10px 10px;
-    border-radius: 0 0 20px 20px;
-    
+
+  .tercer-div{
+  padding: 7px 15px 10px 15px;
   }
-  .Marketing1{
+  
+  .cartas{
     background-color: rgb(255, 255, 255);
     padding-top: 0px;
     border-radius: 20px;
-    border: 1px dashed blanchedalmond;
-    box-shadow: 4px 4px 4px rgb(179, 175, 175);
+    box-shadow: 4px 4px 4px rgb(34, 34, 34);
     width: 300px;
     max-width: 300 px;
     font-family: Arial, Helvetica, sans-serif;
@@ -182,27 +171,7 @@ span{
     color: rgb(71, 71, 71);
   }
   
-  .Development{
-    background-color: rgb(255, 255, 255);
-    padding-top: 0px;
-    border-radius: 20px;
-    border: 1px dashed blanchedalmond;
-    box-shadow: 4px 4px 4px rgb(179, 175, 175);
-    width: 300px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .Marketing2{
-    background-color: rgb(255, 255, 255);
-    padding-top: 0px;
-    border-radius: 20px;
-    border: 1px dashed blanchedalmond;
-    box-shadow: 4px 4px 4px rgb(179, 175, 175);
-    width: 300px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  .ultima-parte{
+   .ultima-parte{
     text-align: center;
   }
 
@@ -222,7 +191,7 @@ span{
     margin-left: 30px;
     margin-bottom: -32px;
   }
-  .Buscar
+  .buscar
   {
     width: 369px;
     height: 53px;
